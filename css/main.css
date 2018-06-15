@@ -1,0 +1,68 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+  font-family: 'Roboto Mono', monospace;
+  margin: 0 auto;
+}
+
+
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  background: #eee;
+  color: #000;
+  margin: 3em;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+button:active {
+  background: green;
+}
+
+p{
+  margin: 20px;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: 10px auto;
+  border: 1px solid lime;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid lime;
+  margin: 10px 0;
+  padding: 10px;
+
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
